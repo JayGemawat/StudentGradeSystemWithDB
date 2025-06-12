@@ -2,9 +2,12 @@ import java.sql.*;
 import java.util.*;
 
 public class DBHandler {
-    private static final String URL = "jdbc:mysql://localhost:3306/Learning";
-    private static final String USER = "root";
-    private static final String PASSWORD = "jAy230403";
+    
+    /* change according to your database configuration*/
+    
+    private static final String URL = "jdbc:mysql://url_of_localhost";
+    private static final String USER = "username";
+    private static final String PASSWORD = "password";
 
     public static Connection getConnection() throws SQLException {
         try {
